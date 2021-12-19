@@ -7,6 +7,7 @@
   "typings": "types",
   "scripts": {
     "build": "tamagui-build",
+    "postinstall": "tamagui-build",
     "watch": "tamagui-build --watch"
   },
   "files": [
