@@ -1,6 +1,6 @@
-import MediaQueryList from '@expo/match-media/build/MediaQueryList.js'
+import 'react-native-match-media-polyfill'
 
-export const matchMedia = (media: string) => new MediaQueryList(media)
+export const matchMedia = window.matchMedia
 
 // @ts-ignore
 globalThis['matchMedia'] = matchMedia

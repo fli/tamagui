@@ -1,4 +1,4 @@
-import '@expo/match-media'
+import 'react-native-match-media-polyfill'
 
 import { act, render } from '@testing-library/react'
 import * as React from 'react'
